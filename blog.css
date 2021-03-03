@@ -1,0 +1,472 @@
+:root{
+  --blue: #4169E1;
+}
+
+.row{
+    margin-right: 0;
+}
+.container_home {
+    font-family: 'Barlow', sans-serif;
+    max-width:2400px;
+    padding: 100px 0px 0px !important;
+}
+
+.container {
+    font-family: 'Barlow', sans-serif;
+    padding-top: 100px!important;
+}
+
+
+.blog-header {
+    Z-INDEX: 100;
+    line-height: 1;
+    POSITION: FIXED;
+    TOP: 0PX;
+    HEIGHT: 85PX;
+    WIDTH: 100%;
+    left: 0;
+    padding-left: 20%;
+    BACKGROUND-COLOR: WHITE;
+    font-family: 'Archivo Black', sans-serif !important;
+    font-family: 'Maven Pro', monospace !important;
+    /*border-bottom: 3px solid #e5e5e5;*/
+}
+
+.blog-header-logo {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+  
+}
+.text-secondary {
+  padding-bottom: 0px !important;
+}
+
+.pt-3, .py-3 {
+    padding-top: 2rem !important;
+}
+
+
+
+/*about*/
+.intro {
+    margin: 0px 5px;
+    font-family: 'Archivo Black', sans-serif !important;
+    font-weight: bold;
+    background-image: url('./data/clock_img_cr2.jpg');
+    background-size: cover;
+    height: 350px;
+    color: white;
+    font-size: 2.8rem;
+    line-height: 2.7rem;
+    font-family: 'Cabin', sans-serif !important;
+}
+.intro p{
+  padding:0px;
+  margin-bottom: 0px !important;
+}
+span.index {
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+    margin-left: 25%;
+    top: 140px;
+    z-index: 20;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px 4px #000000;*/
+}
+
+.first_row {
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 1.1rem;
+}
+
+.first_sec {
+    padding: 2rem 4rem 2rem;
+    max-width: 1200px;
+    margin: 2rem auto 5rem;
+    border-radius: 15px;
+    border-left: 6px solid;
+    border-right: 6px solid;
+    border-color: #f1ae68;
+}
+
+
+/* contents */
+.title{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 35px 15px 0px;
+  color: var(--blue);
+}
+
+
+.researh_field{
+  height:30px;
+  margin-left: 20px;
+  margin-right: auto;
+  width:720px;
+  font-size: 0.9rem;
+}
+
+.field_button {
+    display: inline-block;
+    margin: 5px 0 0 0;
+    padding: 1px 5px;
+    height: 30px;
+}
+ .year_button {
+    display: inline-block;
+    margin: 5px 0 0 0;
+    padding: 1px 5px;
+    height: 30px;
+}
+.field_button1 {
+    float: left;
+    display: inline-block;
+    margin: 0px;
+    padding: 10px 1px;
+    height: 30px;
+    color: grey;
+    width: 110px;
+}
+
+.but {
+    margin:1px;
+    display: inline-block;
+    float:left;
+    height:40px;
+}
+
+
+.field_button label, .field_button input {
+    
+}
+
+.field_button input[type="radio"] {
+    opacity:0.011;
+    z-index:100;
+    width:0px;
+}
+
+.field_button input[type="radio"]:checked + label {
+    background:grey;
+    color:white;
+}
+
+.field_button label {
+    padding: 0 7px;
+    border: 1.5px solid #8080801f;
+    color: #545454;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 90;
+}
+
+    .field_button label:hover {
+        background: #8080801f;
+        border-color: white;
+    }
+
+
+.year_button label, .year_button input {
+}
+
+    .year_button input[type="radio"] {
+        opacity: 0.011;
+        z-index: 100;
+        width: 0px;
+    }
+
+        .year_button input[type="radio"]:checked + label {
+            background: grey;
+            color: white;
+        }
+
+.year_button label {
+    padding: 0 7px;
+    border: 1.5px solid #8080801f;
+    color: #545454;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 90;
+}
+
+    .year_button label:hover {
+        /*filter: brightness(85%);*/
+        background: #8080801f;
+        border-color: white;
+    }
+
+/* research */
+.research_block {
+    width: auto;
+    padding: 20px;
+    border-bottom: 4px solid #8080801f;
+}
+.research_photo{
+    width: 400px;
+    height:300px;
+    margin: 15px;
+    display: inline-block;
+}
+.research_text {
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+}
+.research_title {
+    font-weight:bold;
+    font-size: 1.8rem;
+}
+/*people*/
+div.line-behind {
+    width: auto;
+    position: relative;
+    padding: 20px;
+}
+span {
+  content: " ";
+  border-top: 0px solid darkgray;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+}
+.line-behind .title {
+  background-color:#fff;
+  display:inline-block;
+  width: 800px;
+}
+
+
+.people{
+  width: 85%;
+  font-size: 1.0rem;
+  padding: 10px 0px 10px 40px;
+  display: inline-block;
+  float:left;
+}
+
+.peoplelist{
+  font-size: 1.0rem;
+  padding: 10px 0px 10px 40px;
+}
+
+.people div p{
+  margin: 0.2px;
+  padding-left: 10px;
+  font-size: 0.85rem;
+}
+.people .role{
+  color:grey;
+}
+
+.people img{
+  vertical-align: bottom;
+  width:120px;
+  height:160px;
+  border-radius: 25px;
+}
+.people .text{
+  display: inline-block;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.people .name{
+  padding-left: 12px;
+  font-weight: bold;
+  color: balck;
+}
+.hp_img{
+  width: 15px !important;
+  height: auto !important;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 0px !important;
+  position: relative;
+  z-index:1;
+}
+
+/*publication*/
+.papers{
+  font-size:0.8rem;
+  padding:6px 10px;
+  display:block;
+}
+.paper_title {
+    font-weight: bold;
+    color: #020b25;
+    font-size:1.0rem;
+}
+.paper_writer{
+  font-weight:bold;
+}
+.paper_academy{
+  color:grey;
+  display: inline-block;
+}
+.paper_year {
+    font-size: 1.2rem;
+    color: lightslategray;
+    padding: 20px 0 25px 0px;
+    margin: 0px 10px;
+    border-top: 2px solid #7788993b;
+}
+.attaches {
+    display: inline-block;
+    color: white;
+    border-radius: 1rem;
+    font-size: 0.7rem; !important;
+    font-weight: normal; !important;
+    margin: 0 0 0 6px;
+}
+.attaches.pdf{
+  background-color: palevioletred;
+}
+.attaches.poster{
+  background-color: cornflowerblue;
+}
+.attaches.ppt{
+  background-color: rgb(74, 160, 74);
+}
+.attaches a{
+  text-decoration: none;
+  color:white;
+  padding: 0 5px;
+}
+.attaches a:hover{
+  text-decoration: none;
+  color:white;
+}
+.logo{
+  width: 200px; 
+  height: auto; 
+  line-height: 5px; 
+  text-align: center
+}
+
+
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+    position: absolute;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+
+    flex: 0 0 45%;
+    left:50%
+}
+.remove_underline{
+  text-decoration: none !important;
+  font-size: 0.95rem;
+  
+}
+.remove_underline:hover{
+  font-weight: bold !important;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+
+  padding-right:200px;
+  
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  font-family: 'Lexend Zetta', sans-serif !important;
+  
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+footer {
+  max-width: 100%;
+  font-size: 0.7rem;
+  margin-top: 3.5rem;
+  padding: 2.5rem 4.5rem;
+  color: #f9f9f9;
+  background-color: rgb(63, 63, 63);
+  /*border-top: .05rem solid #e5e5e5;*/
+}
+footer p:last-child {
+  margin-bottom: 0;
+}
+.footer_info{
+  display: inline-block;
+}
+.footer_hp_info{
+  display: inline-block;
+  float: right;
+  bottom: -78px;
+  position: relative;
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "year":"2020",
+        "publications":[
+            {
+                "title":"bl;dufl",
+                "writer":"writer x",
+                "academy":"acm 2020",
+                "pdf":"www.naver.com"
+            },
+            {
+                "title":"bl;dufldfs",
+                "writer":"writer x, writer xy",
+                "academy":"kdd 2020",
+                "poster":"www.naver.com"
+            }
+        ]
+    },
+    {
+        "year":"2019",
+        "publications":[
+            {
+                "title":"bl;dufl",
+                "writer":"writer x",
+                "academy":"acm 2019"
+            },
+            {
+                "title":"bl;dufldfs",
+                "writer":"writer x, writer xy",
+                "academy":"kdd 2019"
+            }
+        ]
+    }
+]
